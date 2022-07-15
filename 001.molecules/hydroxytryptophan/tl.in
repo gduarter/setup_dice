@@ -1,0 +1,7 @@
+source leaprc.gaff2
+
+HYD = loadmol2 hydroxytryptophan.mol2
+loadamberparams hydroxytryptophan.frcmod
+
+saveAmberParm HYD hydroxytryptophan.prmtop hydroxytryptophan.inpcrd
+quit
